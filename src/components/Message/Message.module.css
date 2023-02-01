@@ -1,0 +1,17 @@
+.msgbox{
+    min-height: 50px;
+    width: 100%;
+    /* min-width: 20px; */
+    /* max-width: 750px; */
+    display: inline-block;
+    /* background-color: blueviolet; */
+    padding: 8px;
+    /* margin: 5px; */
+}
+.msg{
+    background-color: lightblue;
+    min-height: 40px;
+    min-width: 15px;
+    max-width: 730px;
+    border-radius: 10px;
+}

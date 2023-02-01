@@ -1,0 +1,11 @@
+.filtercard{
+    height:100%;
+    border-radius: 10px;
+    border: 2px solid rgb(213, 125, 2);
+    /* display: flex; */
+    /* flex-direction: colunm; */
+    /* justify-content: start; */
+
+
+    
+}

@@ -1,0 +1,79 @@
+.chat{
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+}
+.room{
+    max-height: 650px;
+    /* background-color: aqua; */
+    border-radius: 20px;
+    margin: 0px;
+    background-color: white;
+}
+.member{
+    cursor: pointer;
+}
+.chatBox{
+    max-height: 650px;
+    min-height: 650px;
+    /* background-color: rgb(45, 232, 232); */
+    min-width: 925px;
+    border-radius: 20px;
+    background-color: white;
+
+}
+.head{
+    border-bottom: 1px solid black;
+    border-bottom-style: dashed;
+    height: 70px;
+}
+.image{
+    border-radius: 50px;
+    height: 50px ;
+    width: 50px;
+    
+}
+.content{
+    width: 170px;
+    height:70px ;
+}
+
+.status{
+   font-size: 12px;
+}
+.friendName{
+    margin: 0px;
+    padding: 0px;
+}
+
+.chatSection{
+    max-height: 480px;
+    min-height: 480px ;
+    /* background-color: bisque; */
+    overflow-y: scroll;
+}
+.typeMsg{
+    background-color: rgb(124, 254, 254);
+    min-height: 45x;
+    border-radius: 15px;
+}
+.typeMsg input{
+    height: 45px;
+    width: 950px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(124, 254, 254);
+
+}
+.typeMsg input:focus{
+   outline: none;
+}
+.send{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    color: red;
+}
+
+.welcome{
+    height: 630px;
+}

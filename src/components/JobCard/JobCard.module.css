@@ -1,0 +1,38 @@
+
+.card {
+  /* position: absolute; */
+  max-width: 250px;
+  min-height: 310px;
+  background: #f3f2f2;
+  border-radius: 6px 36px;
+}
+
+.image{
+  min-width: 250px;
+  /* background-image: url('') ; */
+  background-color: blue;
+  min-height: 150px;
+  border-radius: 6px 36px 36px 6px;
+}
+.location{
+  width: 100px;
+  max-height: 25px;
+  /* margin: ; */
+  background-color: rgb(247, 234, 234);
+  border-radius: 6px 50px 50px 6px;
+
+}
+
+.description{
+  font-size: 11px;
+}
+
+.bottombox{
+  max-width: 85px;
+  /* border-right: 2px solid black; */
+  margin: 0px 3px;
+  padding: 0px 3px;
+}
+.bottomboxConetnt{
+  font-size: 15px;
+}
